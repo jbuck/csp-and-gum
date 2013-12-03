@@ -24,6 +24,10 @@ var headers = {
     "Content-Type": "text/html; charset=utf-8",
     "Content-Security-Policy": "default-src 'none'; script-src 'self'; media-src mediastream:"
   },
+  "/mediastream-and-self.html": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Security-Policy": "default-src 'none'; script-src 'self'; media-src 'self' mediastream:"
+  },
   "/star.html": {
     "Content-Type": "text/html; charset=utf-8",
     "Content-Security-Policy": "default-src 'none'; script-src 'self'; media-src *"
