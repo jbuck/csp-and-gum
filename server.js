@@ -16,6 +16,10 @@ var headers = {
     "Content-Type": "text/html; charset=utf-8",
     "Content-Security-Policy": "default-src 'none'; script-src 'self'; media-src 'self'"
   },
+  "/blob.html": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Security-Policy": "default-src 'none'; script-src 'self'; media-src blob:"
+  },
   "/mediastream.html": {
     "Content-Type": "text/html; charset=utf-8",
     "Content-Security-Policy": "default-src 'none'; script-src 'self'; media-src mediastream:"
