@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Content Security Policy & getUserMedia</title>
+  </head>
+  <body>
+    <p>This is an experiment that tests how Content Security Policy and getUserMedia interact.
+      If the script worked then your webcam should be mirrored below.</p>
+    <p>Test others:</p>
+    <ul>
+      <li><a href="/">No policy applied</a></li>
+      <li><a href="none.html">media-src: 'none'</a></li>
+      <li><a href="self.html">media-src: 'self'</a></li>
+      <li><a href="mediastream.html">media-src: mediastream:</a></li>
+      <li><a href="star.html">media-src: *</a></li>
+    </ul>
+    <video autoplay></video>
+    <script src="gum.js"></script>
+  </body>
+</html>

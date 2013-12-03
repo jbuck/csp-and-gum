@@ -1,0 +1,12 @@
+{
+  "name": "csp-and-gum",
+  "version": "0.0.0",
+  "description": "Test Content Security Policy and getUserMedia",
+  "author": "Jon Buckley <jon@jbuckley.ca>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/isaacs/npm.git"
+  },
+  "homepage": "http://csp-and-gum.herokuapp.com/"
+}
